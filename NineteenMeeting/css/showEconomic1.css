@@ -1,0 +1,162 @@
+body{
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/showone.png);
+	background-size: auto 100%;
+}
+
+.header {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.hd-c {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+}
+
+.hd-c .banner {
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin: 0 auto;
+}
+
+.content {
+	text-align: center;
+}
+.pic{
+	
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.currenttype{
+	float: left;
+	margin-top: 5%;
+	width: 130px;
+	margin-left:9%;
+}
+.conenttitle{
+	float: left;
+	margin-top: 5%;
+	width: 78.8%;
+	height: 130px;
+	text-align: center;
+}
+
+.changing-over {
+	width: 100%;
+	height: auto;
+}
+.ecomain{
+	width: 70%;
+	height: auto;
+	margin: 0 auto;
+}
+.maintitle{
+	width: 90%;
+	height: 300px;
+	text-indent: 2em; 
+	margin: 0 auto;
+	margin-top: 10px;
+	color: yellow;
+}
+.Ecobody{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	border-top:1px solid #ddd;
+}
+
+.Catalog{
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+}
+.catashow{
+	width: 100%;
+	margin: 0 auto;
+	background-image: url(../img/背景1.png);
+	background-size: cover;
+	margin-top: 20%;
+}
+.Catalogmain ul {
+	width: 100%;
+	margin:0 auto;
+	margin-left: -40px;
+	text-align: center;
+}
+.Catalogmain ul li{
+	list-style-type:none ;
+	margin: 0 auto;
+	width: 100%;
+	line-height:50px;
+	color: yellow;
+	transition: all 0.4s;  
+	cursor: pointer; 
+	
+}
+.Catalogmain ul li:hover{
+	transform: scale(1.1);  
+}
+.Catalogmain{
+	width: 100%;
+	margin: 0 auto;
+	height: auto;
+	background-image: url(../img/catalogback.png);
+	background-size: cover;
+}
+.sixtask{
+	margin-top: 10px;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	background-color: firebrick;
+	 color:yellow
+}
+.sixtask span{
+	height:100%;
+	display:block;
+	margin:1px 1px;
+	text-align:center;
+	line-height:28px;
+}
+.contentshow {
+	width: 70%;
+	text-indent: 2em;
+	color: #c64747;
+	margin: 0 auto;
+	margin-top: 6%;
+}
+
+.titlecontent{
+	height: 30px;
+	text-align: center;
+	line-height: 40px;
+	color: #B22222;
+}
+.picshow{
+	margin-top: 10px;
+	width: 49%;
+	float: right;
+}
+.button{
+	width: 80%;
+}
+.button button{
+	height: 30px;
+	width: 50%;
+	color: yellow;
+	border-radius:5px;
+	background-color: #978;
+	border: 1px solid;
+}

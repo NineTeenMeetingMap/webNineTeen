@@ -1,0 +1,98 @@
+
+body{
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/showone.png);
+	background-size: cover;
+}
+
+.header {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.hd-c {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+}
+
+.hd-c .banner {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 15%;
+}
+
+.content {
+	text-align: center;
+}
+
+
+.banner .pic {
+	position: fixed;
+	/* width: 100%; */
+	/* height: 90%; */
+	/* text-align: center; */
+	bottom: 0;
+}
+
+.banner .png-24 {
+	_display: none;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.banner  .changing-over {
+	float: left;
+	margin: 1px 0 1px 1px;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	transition: all 0.4s;  
+	cursor: pointer;  
+}
+.frameone {
+	position: absolute;
+	top: 30%;
+	width: 180px;
+	left: 15%;
+}
+
+.frametwo {
+	position: absolute;
+	top: 30%;
+	width: 180px;
+	left: 42%;
+}
+
+.framethree {
+	position: absolute;
+	top: 30%;
+	width: 180px;
+	left: 70%;
+}
+.framefour {
+	position: absolute;
+	top: 53%;
+	width: 180px;
+	left: 28%;
+}
+.framefive {
+	position: absolute;
+	top: 53%;
+	width: 180px;
+	left: 56%;
+}
+.changing-over:hover{
+	transform: scale(1.2);  
+}
+
